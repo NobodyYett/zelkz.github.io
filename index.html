@@ -1,151 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zelkz - Legal</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #f7f5f2;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-    .container {
-      max-width: 600px;
-      width: 100%;
-    }
-    .card {
-      background: #fff;
-      border-radius: 16px;
-      padding: 40px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      border: 1px solid #e8e5e0;
-    }
-    .logo {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #1a1a1a;
-      margin-bottom: 8px;
-    }
-    .tagline {
-      color: #666;
-      margin-bottom: 32px;
-    }
-    .app-section {
-      border-top: 1px solid #e8e5e0;
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    .app-header {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 16px;
-    }
-    .app-icon {
-      width: 56px;
-      height: 56px;
-      border-radius: 12px;
-      object-fit: cover;
-    }
-    .app-name {
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #1a1a1a;
-    }
-    .app-desc {
-      font-size: 0.9rem;
-      color: #666;
-    }
-    .links {
-      display: flex;
-      gap: 12px;
-      margin-top: 16px;
-    }
-    .link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 10px 20px;
-      background: #f0ebe4;
-      color: #4a6741;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 500;
-      font-size: 0.95rem;
-      transition: all 0.2s;
-    }
-    .link:hover {
-      background: #4a6741;
-      color: #fff;
-    }
-    .link svg {
-      width: 16px;
-      height: 16px;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 32px;
-      color: #888;
-      font-size: 0.85rem;
-    }
-    .footer a {
-      color: #4a6741;
-      text-decoration: none;
-    }
-    .footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom – Legal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4efe9 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            text-align: center;
+            background: #fff;
+            padding: 48px 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+        }
+        .logo { font-size: 3rem; margin-bottom: 8px; }
+        h1 { color: #2d5a45; font-size: 2rem; margin-bottom: 8px; }
+        .tagline { color: #666; font-size: 1.1rem; margin-bottom: 32px; }
+        .links { display: flex; flex-direction: column; gap: 16px; }
+        a.btn {
+            display: block;
+            padding: 16px 24px;
+            background: #2d5a45;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.2s, transform 0.2s;
+        }
+        a.btn:hover { background: #234536; transform: translateY(-2px); }
+        .company {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        .company a { color: #2d5a45; }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="logo">Zelkz</div>
-      <p class="tagline">Legal & Privacy Information</p>
-
-      <div class="app-section">
-        <div class="app-header">
-          <img src="bloom/appicon.png" alt="Bloom" class="app-icon">
-          <div>
-            <div class="app-name">Bloom</div>
-            <div class="app-desc">Pregnancy Planner & Guide</div>
-          </div>
-        </div>
+    <div class="container">
+        <div class="logo">🌱</div>
+        <h1>Bloom</h1>
+        <p class="tagline">Pregnancy Planner & Guide</p>
         <div class="links">
-          <a href="bloom/privacy.html" class="link">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-            </svg>
-            Privacy Policy
-          </a>
-          <a href="bloom/terms.html" class="link">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            Terms of Service
-          </a>
+            <a class="btn" href="privacy.html">Privacy Policy</a>
+            <a class="btn" href="terms.html">Terms of Service</a>
         </div>
-      </div>
-
-      <div class="footer">
-        <p>© 2026 Zelkz LLC. All rights reserved.</p>
-        <p style="margin-top: 8px;">
-          <a href="mailto:support@zelkz.com">support@zelkz.com</a>
-        </p>
-      </div>
+        <div class="company">
+            <p>© 2026 Zelkz LLC</p>
+            <p>Contact: <a href="mailto:support@zelkzllc.com">support@zelkzllc.com</a></p>
+        </div>
     </div>
-  </div>
 </body>
 </html>
